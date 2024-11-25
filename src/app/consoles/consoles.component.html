@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consoles</title>
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .direcionais {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .direcional {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .direcional:hover {
+            background-color: #3700b3;
+            transform: scale(1.05);
+        }
+
+        .direcional:active {
+            background-color: #03dac6;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Escolha um Direcional</h1>
+        
+        <div class="direcionais">
+            <a href="#jogos" class="direcional">Jogos</a>
+            <a href="#consoles" class="direcional">Consoles</a>
+        </div>
+
+        <div id="consoles" style="margin-top: 50px;">
+            <h2>Consoles</h2>
+            <p>Confira os consoles mais populares do mercado. De PlayStation a Xbox, temos tudo sobre o mundo dos games!</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Jogos e Consoles. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
